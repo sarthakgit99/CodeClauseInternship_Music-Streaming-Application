@@ -1,0 +1,52 @@
+.widget-card {
+    position: relative;
+    margin-bottom:4%;
+  width: 26%;
+  height: 88%;
+  border-radius: 10px;
+  /* background: rgb(30, 42, 62);
+  background: linear-gradient(75deg, rgb(40, 58, 88) 0%, rgba(54, 69, 98) 100%); */
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    steelblue 0%,
+    black 100%
+  );
+  padding: 1% 2%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.widget-card:hover{
+    transform: scale(1.08);
+    background: radial-gradient(
+    circle,
+    rgb(40, 98, 146) 0%,
+    rgb(28, 28, 28) 100%
+  );
+}
+.w-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #e1e1e1;
+}
+.wid-end{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 89%;
+    height: 20%;
+    border-radius: 25px;
+    background: linear-gradient(
+        180deg,rgba(54,69,98,0)10%,
+        rgb(14, 9, 35)100%
+    );
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 5%;
+}
+.widget-card:hover .wid-end{
+    opacity: 1;
+}

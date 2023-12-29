@@ -1,0 +1,27 @@
+.data{
+    width: 100%;
+    align-items: center;
+    margin-top: 8%;
+}
+.data-image{
+    height: 60px;
+    width: 60px;
+    border-radius: 7px;
+    margin-right: 8px;
+}
+.data-right{
+    flex-direction: column;
+    justify-content: center;
+}
+.data-title{
+    font-weight: 600;
+    font-size: 16px;
+    color:rgba(240, 248, 255, 0.902);
+    margin: 0px 0px 5px;
+}
+.data-subtitle{
+    font-weight: 500;
+    font-size: 13px;
+    color: #bfbfbfea;
+    margin: 0;
+}

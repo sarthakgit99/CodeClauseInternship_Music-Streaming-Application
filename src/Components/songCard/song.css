@@ -1,0 +1,12 @@
+.song-body{
+    width: 90%;
+    height: 64%;
+    background-color: rgba(0, 17, 37, 0.629);
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 12%;
+}

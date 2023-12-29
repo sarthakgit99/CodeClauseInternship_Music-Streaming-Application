@@ -1,0 +1,20 @@
+.song-image{
+    width:80%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.song-image img{
+    border-radius: 20px;
+    width: 100%;
+    aspect-ratio: 1;
+}
+.shadow{
+    -webkit-filter: blur(15px);
+    filter: blur(10px);
+    width: 90%;
+    position: absolute;
+    z-index: -1;
+    top: 12%;
+}

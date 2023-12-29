@@ -1,0 +1,41 @@
+.song-content{
+    width: 80%;
+}
+.album-name{
+    margin-top: 5%;   
+    width: 100%;
+    overflow: hidden;     
+}
+.song-content .desc{
+    white-space: nowrap;
+    display: inline-block;
+    animation: desc 12s linear infinite;
+    padding-left: 60%;     
+}
+p{
+    /* color: rgb(192, 240, 255); */
+    color:aliceblue;
+    margin: 0px !important;
+}
+@keyframes desc{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.album-name p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.album-info p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #aec5ec;
+}
+.album-release p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #b8c7e1;
+}
